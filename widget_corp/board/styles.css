@@ -1,0 +1,101 @@
+body{
+  margin:auto;
+  width:25%;
+}
+
+#results-list{
+  border: 2px solid #3E00B2;
+  background: rgba(255, 255, 133, 0.6);
+  visibility: hidden;
+  width: 50%;
+}
+
+#spin{
+  cursor: pointer;
+  cursor: hand;
+  filter: invert(0%);
+  padding: 10px;
+  margin: 30px;
+  background-color: #B9FFF4;
+  box-shadow: 3px 3px 5px #84A9B2;
+  background: -moz-linear-gradient(#B9FFF4, #79F6FF);
+  background: linear-gradient(#B9FFF4, #79F6FF);
+  text-shadow: 1px 1px lightgrey;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+#spin:hover{
+  filter: invert(100%);
+}
+
+#options{
+  visibility: hidden;
+}
+
+#reroll{
+  border: 1px solid black;
+  width: 30%;
+  float:left;
+  margin-top: 5%;
+  margin-left: 2%;
+  box-shadow: 1px 2px 3px grey;
+}
+
+#song{
+  border: 1px solid black;
+  width: 30%;
+  float:left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 5%;
+  box-shadow: 1px 2px 3px grey;
+}
+
+#pause{
+  border: 1px solid black;
+  width: 30%;
+  float:left;
+  margin-top: 5%;
+  margin-right: 2%;
+  box-shadow: 1px 2px 3px grey;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+}
+
+li{
+  color: black;
+}
+
+td{
+  padding: 25px;
+  border: 1px solid black;
+  text-align: center;
+  box-shadow: 5px 5px 5px grey;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 2px black;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+input{
+  margin: 5%;
+  box-shadow: 2px 2px 1px grey;
+}
+
+button{
+  margin:20px;
+}
+
+p{
+  font-size: 14px;
+}
